@@ -1,6 +1,6 @@
 # Martin's GitHub Pages site
 
-A small, intentionally simple landing page for [Martinn1996](https://github.com/Martinn1996). It is built with semantic HTML, CSS, and a little vanilla JavaScript, so it can be hosted directly on GitHub Pages.
+A small, intentionally simple personal site for [martinchunho](https://github.com/martinchunho), with a landing page and an about page. It is built with semantic HTML, CSS, and a little vanilla JavaScript, so it can be hosted directly on GitHub Pages.
 
 ## Local preview
 
@@ -20,10 +20,12 @@ The repository already uses `main`, and the workflow at [`.github/workflows/page
 2. Open **Settings → Pages** on GitHub.
 3. Choose **GitHub Actions** as the source under **Build and deployment**, then save.
 
-The site will be available at [martinn1996.github.io/me](https://martinn1996.github.io/me/) after the first deployment finishes.
+The site will be available at [martinchunho.github.io/me](https://martinchunho.github.io/me/) after the first deployment finishes.
 
-## Editing the landing page
+## Editing the site
 
-- Update the text and links in [`index.html`](./index.html).
+- Update the landing page in [`index.html`](./index.html).
+- Update the biography in [`about.html`](./about.html).
 - Adjust the layout and colors in [`styles.css`](./styles.css).
-- Add more sections to `index.html` whenever you are ready; the page is deliberately kept small for now.
+- The sun/moon button in the header switches between dark and light mode.
+- Add more pages whenever you are ready; the site is deliberately kept small for now.

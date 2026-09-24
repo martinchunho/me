@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,7 +7,7 @@
       name="description"
       content="Hi, I'm Martin."
     />
-    <meta name="theme-color" content="#f7f5ef" />
+    <meta name="theme-color" content="#101713" />
     <meta property="og:title" content="Martin — Software engineer" />
     <meta
       property="og:description"
@@ -25,14 +25,23 @@
           <span class="brand-mark">M</span>
           <span>martin<span class="brand-dot">.</span></span>
         </a>
-        <a
-          class="github-link"
-          href="https://github.com/Martinn1996"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub <span aria-hidden="true">↗</span>
-        </a>
+        <nav class="header-links" aria-label="Primary navigation">
+          <a class="header-link" href="about.html">About</a>
+          <a
+            class="github-link"
+            href="https://github.com/martinchunho"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+          <button
+            class="theme-toggle"
+            type="button"
+            data-theme-toggle
+            aria-label="Switch to light mode"
+          ></button>
+        </nav>
       </header>
 
       <section class="hero hero--minimal" aria-labelledby="hero-title">
